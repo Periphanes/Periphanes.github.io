@@ -1,0 +1,41 @@
+baseURL = 'https://periphanes.github.io/'
+languageCode = 'en-us'
+title = "John has Won"
+theme = 'PaperMod'
+
+ShowReadingTime                 = true
+ShowShareButtons                = true
+ShowPostNavLinks                = true
+ShowBreadCrumbs                 = true
+ShowCodeCopyButtons             = false
+ShowWordCount                   = true
+ShowRssButtonInSectionTermList  = true
+UseHugoToc                      = true
+disableSpecial1stPost           = false
+disableScrollToTop              = false
+comments                        = false
+hidemeta                        = false
+hideSummary                     = false
+showtoc                         = false
+tocopen                         = false
+
+
+[params]
+defaultTheme = "light"
+
+[params.homeInfoParams]
+Title = "Hi! &#128512;"
+Content = "This is John Won, Computer Science and Engineering undergrad, interested in machine learning and algorithms research."
+
+
+[[menu.main]]
+identifier = "About"
+name = "About"
+url = "/about"
+weight = 20
+
+[[menu.main]]
+identifier = "Posts"
+name = "Posts"
+url = "/"
+weight = 30

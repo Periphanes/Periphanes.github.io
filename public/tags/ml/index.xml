@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ML on John has Won</title>
+    <link>https://periphanes.github.io/tags/ml/</link>
+    <description>Recent content in ML on John has Won</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Oct 2023 11:30:03 +0000</lastBuildDate><atom:link href="https://periphanes.github.io/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Road to NTK (1) : Introduction</title>
+      <link>https://periphanes.github.io/ntk/ntk_1/</link>
+      <pubDate>Fri, 20 Oct 2023 11:30:03 +0000</pubDate>
+      
+      <guid>https://periphanes.github.io/ntk/ntk_1/</guid>
+      <description>1. Double Descent and Overparameterization In classical theories of machine learning and statistical learning, there was the traditional consensus that there was a careful balance between the training error, and generalization gap. We are familiar with the U-shaped graph of the test risk when the complexity of a model is increased. The expected formulation is an initial decrease of both training and test risk,
+The (a) diagram in the figure above showcases this old wisdom, with training risk being reduced as model parameter counts increase, while the test risk rebounds upwards again as the model overfits to the training data.</description>
+    </item>
+    
+  </channel>
+</rss>
