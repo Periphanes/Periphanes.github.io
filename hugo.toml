@@ -19,6 +19,12 @@ hideSummary                     = false
 showtoc                         = false
 tocopen                         = false
 
+[assets]
+favicon             = "/static/img/favicon-32x32.png"
+favicon16x16        = "/static/img/favicon-16x16.png"
+favicon32x32        = "/static/img/favicon-32x32.png"
+apple_touch_icon    = "/static/img/apple-touch-icon.png"
+
 
 [params]
 defaultTheme = "light"
