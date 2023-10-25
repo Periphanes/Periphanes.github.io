@@ -1,5 +1,5 @@
 ---
-title: "Road to NTK (4) : Infinite-Width Nerual Networks - 1"
+title: "Road to NTK (4) : Infinite-Width Neural Networks - 1"
 date: 2023-10-24T16:30:03+00:00
 # weight: 1
 # aliases: ["/first"]
