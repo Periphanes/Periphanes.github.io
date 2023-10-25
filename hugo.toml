@@ -31,8 +31,7 @@ defaultTheme = "light"
 
 [params.homeInfoParams]
 Title = "Hi! &#128512;"
-Content = "This is John Won, Computer Science and Engineering undergrad, interested in machine learning and algorithms research."
-
+Content = "This is John Won, CS undergrad @ POSTECH, interested in machine learning and algorithms research. Currently researching hashing algorithms at KAIST Data Mining Lab."
 
 [[menu.main]]
 identifier = "About"
