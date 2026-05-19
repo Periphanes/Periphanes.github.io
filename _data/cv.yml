@@ -1,10 +1,6 @@
 cv:
   name: John Won
-  label: MS/PhD Student
-  email: johnwon at kaist.ac.kr
   location: Daejeon, South Korea
-  image: ""
-  summary: MS/PhD student at KAIST AI, researching deep learning, vision-language-action models, and world models for robotics.
 
   sections:
     Education:
