@@ -1,34 +1,63 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"shin":
+  - firstname: ["Jinwoo", "J."]
+    url: https://alinlab.kaist.ac.kr/shin.html
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"lee":
+  - firstname: ["Kyungmin", "K."]
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+  - firstname: ["Kwanhyung", "K."]
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+  - firstname: ["Byeongchan", "B."]
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+  - firstname: ["Seunghyun", "S."]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+  - firstname: ["Joohyung", "J."]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"kim":
+  - firstname: ["Dongyoung", "D."]
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+  - firstname: ["Seungku", "S."]
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+  - firstname: ["Taeyoung", "T."]
+
+  - firstname: ["Beomjun", "B."]
+
+"jang":
+  - firstname: ["Huiwon", "H."]
+
+  - firstname: ["Suhyeok", "S."]
+
+  - firstname: ["Changsung", "C."]
+
+"tamirisa":
+  - firstname: ["Rishub", "R."]
+
+"lu":
+  - firstname: ["Chengjun", "C."]
+
+"arel":
+  - firstname: ["Ron", "R."]
+
+"zhou":
+  - firstname: ["Andy", "A."]
+
+"hyun":
+  - firstname: ["Heejung", "H."]
+
+"hahn":
+  - firstname: ["Sangchul", "S."]
+
+"choi":
+  - firstname: ["Edward", "E."]
+    url: https://mp2893.com/
+
+  - firstname: ["Daewon", "D."]
+
+"yoon":
+  - firstname: ["Byungjun", "B."]
+
+"koo":
+  - firstname: ["Myungkyu", "M."]
+
+"han":
+  - firstname: ["Dongsu", "D."]
