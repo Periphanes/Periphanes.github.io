@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://periphanes.github.io/sitemap.xml
+Sitemap: https://Periphanes.github.io/sitemap.xml
