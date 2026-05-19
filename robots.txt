@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://periphanes.github.io/sitemap.xml
