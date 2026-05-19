@@ -121,7 +121,10 @@
 
         {% if self_in_remaining %}
           , ...,
-          <em>{{ self_author_first }} {{ self_author_last_html }}</em>,
+          <em>
+            {{- self_author_first }}
+            {{ self_author_last_html -}}</em
+          >,
           {% assign remaining_count = more_authors | minus: 1 %}
           {% if remaining_count > 0 %}
             {%- assign more_authors_hide = remaining_count | append: ' more author' -%}
