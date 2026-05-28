@@ -141,8 +141,8 @@ _styles: >
     Kim Jaechul Graduate School of AI, KAIST &nbsp;&bull;&nbsp; RLWRLD
   </div>
   <div class="dust-links">
-    <a href="https://arxiv.org/abs/2510.27607"><i class="fas fa-file-pdf"></i> arXiv</a>
-    <span class="coming-soon"><i class="fab fa-github"></i> Code (Coming Soon)</span>
+    <a href="https://arxiv.org/abs/2510.27607"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/></svg> arXiv</a>
+    <span class="coming-soon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/></svg> Code (Coming Soon)</span>
   </div>
 </div>
 
@@ -191,15 +191,15 @@ _styles: >
   </p>
   <div class="row mt-3">
     <div class="col-sm-4 mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/dust/concept_a.png" title="Joint Diffusion" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/dust/concept_a.png" title="Joint Diffusion" class="img-fluid rounded z-depth-0" %}
       <div class="dust-caption">(a) Joint Diffusion</div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/dust/concept_b.png" title="Causal" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/dust/concept_b.png" title="Causal" class="img-fluid rounded z-depth-0" %}
       <div class="dust-caption">(b) Causal</div>
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/dust/concept_c.png" title="Dual-Stream (Ours)" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/dust/concept_c.png" title="Dual-Stream (Ours)" class="img-fluid rounded z-depth-0" %}
       <div class="dust-caption">(c) Dual-Stream (Ours)</div>
     </div>
   </div>
@@ -212,7 +212,7 @@ _styles: >
   </p>
   <div class="row mt-3">
     <div class="col-12">
-      {% include figure.liquid loading="eager" path="assets/img/dust/architecture.png" title="DUST Architecture" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/dust/architecture.png" title="DUST Architecture" class="img-fluid rounded z-depth-0" %}
       <div class="dust-caption">DUST architecture. A frozen VLM provides conditioning features to the dual-stream diffusion model, which jointly denoises action and future observation tokens through shared MMDiT blocks followed by modality-specific DiT blocks.</div>
     </div>
   </div>
@@ -223,9 +223,9 @@ _styles: >
   <p>
     During inference, DUST jointly samples actions and future visual observations. Since image embeddings operate in a higher-dimensional space and benefit from more denoising steps, we introduce <b>asynchronous denoising</b>: vision tokens are updated at every fine-grained step while action tokens are updated less frequently. This test-time scaling strategy provides a tunable trade-off between inference speed and predictive accuracy, yielding an additional 2&ndash;5% boost in success rate.
   </p>
-  <div class="row mt-3">
-    <div class="col-12">
-      {% include figure.liquid loading="eager" path="assets/img/dust/diffusion_steps.png" title="Asynchronous Denoising" class="img-fluid rounded z-depth-1" %}
+  <div class="row mt-3 justify-content-center">
+    <div class="col-md-6">
+      {% include figure.liquid loading="eager" path="assets/img/dust/diffusion_steps.png" title="Asynchronous Denoising" class="img-fluid rounded z-depth-0" %}
       <div class="dust-caption">Asynchronous joint sampling. Vision tokens receive more denoising steps than action tokens, enabling test-time scaling of visual prediction quality.</div>
     </div>
   </div>
@@ -238,7 +238,7 @@ _styles: >
   </p>
   <div class="row mt-3">
     <div class="col-12">
-      {% include figure.liquid loading="eager" path="assets/img/dust/qualitative.jpg" title="Qualitative Results" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/dust/qualitative.jpg" title="Qualitative Results" class="img-fluid rounded z-depth-0" %}
       <div class="dust-caption">Example rollouts showing DUST's predicted future observations alongside actual task execution in real-world and simulated environments.</div>
     </div>
   </div>
@@ -247,15 +247,11 @@ _styles: >
 <div class="dust-section">
   <h2>BibTeX</h2>
   <div class="dust-bibtex">
-
-```bibtex
-@inproceedings{won2026dust,
+<pre><code>@inproceedings{won2026dust,
   title={Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action Model},
   author={Won, John and Lee, Kyungmin and Jang, Huiwon and Kim, Dongyoung and Shin, Jinwoo},
   booktitle={International Conference on Machine Learning (ICML)},
   year={2026}
-}
-```
-
+}</code></pre>
   </div>
 </div>
