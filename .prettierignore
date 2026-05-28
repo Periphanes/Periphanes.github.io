@@ -13,3 +13,5 @@ _scripts/*
 _data/citations.yml
 # Project pages with mixed HTML/CSS frontmatter
 _pages/dust.md
+# Template docs
+CUSTOMIZE.md

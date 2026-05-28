@@ -223,11 +223,9 @@ _styles: >
   <p>
     During inference, DUST jointly samples actions and future visual observations. Since image embeddings operate in a higher-dimensional space and benefit from more denoising steps, we introduce <b>asynchronous denoising</b>: vision tokens are updated at every fine-grained step while action tokens are updated less frequently. This test-time scaling strategy provides a tunable trade-off between inference speed and predictive accuracy, yielding an additional 2&ndash;5% boost in success rate.
   </p>
-  <div class="row mt-3 justify-content-center">
-    <div class="col-md-6">
-      {% include figure.liquid loading="eager" path="assets/img/dust/diffusion_steps.png" title="Asynchronous Denoising" class="img-fluid rounded z-depth-0" %}
-      <div class="dust-caption">Asynchronous joint sampling. Vision tokens receive more denoising steps than action tokens, enabling test-time scaling of visual prediction quality.</div>
-    </div>
+  <div style="max-width: 50%; margin: 1rem auto;">
+    {% include figure.liquid loading="eager" path="assets/img/dust/diffusion_steps.png" title="Asynchronous Denoising" class="img-fluid rounded z-depth-0" %}
+    <div class="dust-caption">Asynchronous joint sampling. Vision tokens receive more denoising steps than action tokens, enabling test-time scaling of visual prediction quality.</div>
   </div>
 </div>
 
