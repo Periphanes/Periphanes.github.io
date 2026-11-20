@@ -385,7 +385,12 @@ ninja.data = [{
           section: "News",},{id: "news-started-my-ms-phd-at-kaist-ai-kim-jaechul-graduate-school-of-ai",
           title: 'Started my MS/PhD at KAIST AI (Kim Jaechul Graduate School of AI).',
           description: "",
-          section: "News",},{id: "projects-dust",
+          section: "News",},{id: "projects-affect",
+          title: 'AFFECT',
+          description: "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/affect/";
+            },},{id: "projects-dust",
           title: 'DUST',
           description: "Dual-Stream Diffusion for World-Model Augmented Vision-Language-Action Model",
           section: "Projects",handler: () => {
