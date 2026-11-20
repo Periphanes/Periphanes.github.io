@@ -28,4 +28,4 @@ latest_posts:
 
 I am an MS/PhD student at the [Kim Jaechul Graduate School of AI](https://gsai.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/), advised by [Prof. Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html). I received my B.S. in Computer Science and Engineering from [POSTECH](https://www.postech.ac.kr/) in 2025.
 
-My research interests lie broadly in deep learning, with a focus on **vision-language-action models** and **world models for robotics**. I am particularly interested in building intelligent systems that can perceive, reason, and act in the physical world.
+My research interests lie broadly in deep learning, with a focus on **world models** and **video foundation models**. I am particularly interested in building intelligent systems that can perceive, reason, and act in the physical world.
